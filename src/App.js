@@ -1,5 +1,11 @@
+import React from 'react'; 
 import logo from './logo.svg';
 import './App.css';
+import Componente from './components/Componente';
+import Propiedades from './components/Propiedades';
+import Estado from './components/Estado';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
+
 
 function App() {
   return (
@@ -15,8 +21,17 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          test
         </a>
+    
+      <section><Componente message="testing2"/>
+      <hr/>
+      <Propiedades/>
+      <Estado/>
+      <RenderizadoCondicional/>
+      
+      </section> 
+
       </header>
     </div>
   );
