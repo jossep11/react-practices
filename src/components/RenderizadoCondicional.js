@@ -16,7 +16,7 @@ export default class RenderizadoCondicional extends Component{
 constructor(props){
     super(props);
     this.state={
-        session:false,
+        session:true,
     }
 
 }

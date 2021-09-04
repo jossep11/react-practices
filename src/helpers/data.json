@@ -1,0 +1,25 @@
+{
+    "frameworks":[
+    {
+        "id":1,
+        "name":"React",
+        "web":"https://es.reactjs.org"
+    },
+    {
+        "id":2,
+        "name":"Vue",
+        "web":"https://vuejs.org"
+    },
+    {
+        "id":3,
+        "name":"Angular",
+        "web":"https://angular.io"
+    },
+    {
+        "id":4,
+        "name":"Laravel",
+        "web":"https://laravel.com"
+    }
+]
+
+}
